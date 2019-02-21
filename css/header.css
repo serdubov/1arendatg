@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto';
+}
+
 .menu_container {
     width: 100%;
     height: 70px;
@@ -118,7 +122,7 @@
 .task-city-container {
     position: absolute;
     width: 145px;
-    height: 80px;
+    height: 0px;
     overflow: hidden;
     background-color: #191919ec;
     left: 0px;
@@ -133,6 +137,10 @@
     -o-transition: all .5s cubic-bezier(0.77,0,0.175,1);
     -webkit-transition: all .5s cubic-bezier(0.77,0,0.175,1);
     -moz-transition: all .5s cubic-bezier(0.77,0,0.175,1);
+}
+
+.task-city-active {
+    height: 80px;
 }
 
 .city-list {
@@ -151,12 +159,18 @@
 
 .menu-section {
     width: 100%;
-    height: 100vh;
+    height: 0px;
     position: fixed;
+    overflow: hidden;
     z-index: 20;
     top: 0;
     background-color: #191919;
 }
+
+.menu-section-active{
+    height: 100vh;
+}
+
 .menu-section-inside {
     width: 100%;
     height: 100%;
@@ -231,13 +245,13 @@
     line-height: 45px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #f6f6f6;
     position: relative;
     z-index: 1;
 }
-a::before {
+nav a::before {
     content: '';
     width: 0%;
     height: 7px;
@@ -249,11 +263,11 @@ a::before {
     -webkit-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
     transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
 }
-a:hover {
+nav a:hover {
     text-decoration: none;
     color: #f6f6f6;
 }
-a:hover::before {
+nav a:hover::before {
     content: '';
     width: 100%;
     height: 7px;
@@ -264,13 +278,9 @@ a:hover::before {
     top: 15px;
 }
 
-a:active::before {
-    content: '';
-    width: 100%;
-    height: 7px;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    z-index: -1;
-    left: 0;
-    top: 15px;
+.transition-5s{
+    transition: all .5s cubic-bezier(0.77,0,0.175,1);
+    -o-transition: all .5s cubic-bezier(0.77,0,0.175,1);
+    -webkit-transition: all .5s cubic-bezier(0.77,0,0.175,1);
+    -moz-transition: all .5s cubic-bezier(0.77,0,0.175,1);
 }

@@ -1,0 +1,311 @@
+.content-centered-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*Картинка на превью*/
+.preview_image{
+    height: 70vh;
+    
+    background-position: center;
+    background-size: cover;
+}
+.preview_image__services{
+    background-image: url(/img/img/KIR_5962.png);
+}
+.preview_image__actions{
+    background-image: url(/img/img/KIR_6109.png);
+}
+.preview_image__houses{
+    background-image: url(/img/img/KIR_9253.png);
+    background-position: top;
+}
+
+
+.preview_image__mask{
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.preview_image__mask h2{
+    max-width: 675px;
+    width: 80%;
+    font-size: 24px;
+    font-size: 48px;
+    text-align: center;
+    color: #F6F6F6;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.47);
+    cursor: default;
+}
+
+.container_content__quote{
+    margin-bottom: 50px;
+}
+
+.quote_content-text{
+    font-size: 18px;
+    font-style: italic;
+    padding: 0px 15px;
+    max-width: 335px;
+    width: 100%;
+}
+
+.quote_content-image img{
+    max-width: 440px;
+    width: 100%;
+    padding: 0px 15px;
+    padding-left: 140px;
+}
+
+.quote_content-image img{
+    width: 100%;
+}
+
+.img-box img {
+    width: 70px;
+}
+
+.service-list-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.house_card__image{
+    width: 100%;
+
+}
+
+.house_card__image img{
+    width: 100%;
+    height: auto;   
+}
+
+.house_card__description h4{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon_houses-service{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.description_house-point, .price_house-point{
+    font-size: 20px;
+}
+
+.button_house{
+    max-width: 216px;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button_house__full-info{
+    background-color: #191919;
+    color: #E7B315;
+}
+
+.button_house__booking{
+    background-color: #E7B315;
+    color: #F6F6F6;
+}
+.button_house__full-info:hover{
+    box-shadow: 0px 5px 30px 2px #191919;
+}
+
+
+
+.button_house__booking:hover{
+    box-shadow: 0px 5px 30px 2px #e7b315;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: auto;
+}
+
+.container_form{
+    max-width: 320px;
+    width: 100%;
+    height: 318px;
+    background-color: #4a4a4a;
+    padding: 20px;
+}
+
+.container_form__price{
+    font-size: 16px;
+    text-align: right;
+}
+
+.container_description p{
+    margin-bottom: 0px;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #4a4a4a;
+    border: 0px;
+    color: #F6F6F6;
+    cursor: pointer;
+}
+
+.card-header h5{
+    font-size: 18px;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+}
+
+.card-body {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-body p{
+    margin-bottom: 0px;
+}
+.card-header:first-child {
+    border-radius: 0px;
+}
+
+.container_feedback{
+    max-width: 320px;
+    width: 100%;
+}
+
+.container_feedback__content{
+    padding-left: 20px;
+}
+
+.date_fb{
+    font-size: 16px;
+    font-style: italic;
+    
+}
+
+.nameis_fb{
+    font-size: 20px;
+    margin: 0px;
+}
+.comment_fb{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.container_form-feedback{
+    max-width: 320px;
+    width: 100%;
+    background-color: #4a4a4a;
+    padding: 20px;
+    float: right;
+}
+
+.container_form-feedback-text{
+    font-size: 16px;
+    text-align: left;
+}
+
+.container_form_all{
+    position: relative;
+}
+
+#form_booking_all{
+    text-align: center;
+}
+
+#form_booking_all input[type=submit]{
+    width: 160px;
+    background-color: #E7B315;
+    border: none;
+    height: 35px;
+    color: #F6F6F6;
+    margin: 10px auto;
+    position: relative;
+    cursor: pointer;
+}
+
+#form_booking_all .input_type{
+    width: 100%;
+    border: 1px solid #191919;
+    background-color: transparent !important;
+    outline: none;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#form_booking input[type=text]{
+    width: 100%;
+    border: 1px solid #F6F6F6;
+    background-color: transparent !important;
+    outline: none;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#form_booking input[type=text]:focus {
+    color: #F6F6F6;
+}
+
+#form_booking input[type=button], #form_booking input[type=submit]{
+    width: 100%;
+    background-color: #E7B315;
+    border: none;
+    height: 35px;
+    color: #F6F6F6;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* для webkit-браузеров */
+    color: #F6F6F6;
+}
+::-moz-placeholder { /* для браузеров Firefox 19+ */
+    color: #F6F6F6;
+}
+:-moz-placeholder { /* для браузеров Firefox 18- */
+    color: #F6F6F6;
+}
+:-ms-input-placeholder { /* для браузеров IE */
+    color: #F6F6F6;
+}
+
+.input_type::-webkit-input-placeholder { /* для webkit-браузеров */
+    color: #191919;
+    opacity: .5;
+}
+.input_type::-moz-placeholder { /* для браузеров Firefox 19+ */
+    color: #191919;
+    opacity: .5;
+}
+.input_type:-moz-placeholder { /* для браузеров Firefox 18- */
+    color: #191919;
+    opacity: .5;
+}
+.input_type:-ms-input-placeholder { /* для браузеров IE */
+    color: #191919;
+    opacity: .5;
+}
