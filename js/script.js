@@ -16,14 +16,12 @@ $(document).ready(() => {
 
     $('.city-item').click((e) => {
         cityName = $(e.target).text();
-        console.log(cityName);
         localStorage.setItem("cityName", cityName);
         $('.correct-city').text(cityName);  
     });
 
     $('.city-toggle').click(() => {
         $('.task-city-container').toggleClass('task-city-active');
-        console.log('olo');
     });
 
 
