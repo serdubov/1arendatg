@@ -10,6 +10,8 @@
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+        <link href="<?$_SERVER['DOCUMENT_ROOT']?>/css/datepicker.min.css" rel="stylesheet" type="text/css">
+        
         <link rel="stylesheet" href="<?$_SERVER['DOCUMENT_ROOT']?>/css/swiper.min.css">
         <link rel="stylesheet" href="<?$_SERVER['DOCUMENT_ROOT']?>/css/header.css">
         <link rel="stylesheet" href="<?$_SERVER['DOCUMENT_ROOT']?>/css/style.css">
@@ -20,6 +22,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script src="<?$_SERVER['DOCUMENT_ROOT']?>/js/script.js"></script>
+        <script src="<?$_SERVER['DOCUMENT_ROOT']?>/js/datepicker.min.js"></script>
         <title>Аренда-ТГ</title>
 	</head>
 	<body>
@@ -28,7 +31,9 @@
 			<div class="menu_container">
 				<div class="menu_container-wrapper">
                     <div class="logo-img">
-                        <img src="<?$_SERVER['DOCUMENT_ROOT']?>/img/logos/logow.png" alt="">
+                        <a href="/">
+                            <img src="<?$_SERVER['DOCUMENT_ROOT']?>/img/logos/logow.png" alt="">
+                        </a>
                     </div>
                     <div class="menu-button " id="open_menu">
                         <span class="d-none d-md-block">МЕНЮ</span>
@@ -36,11 +41,11 @@
                     </div>
                     <div class="city-toggle d-none d-md-flex">
                         <div class="tack-city-correct">
-                            Выбрать город
+                            <span class="correct-city">Выбрать город</span> 
                             <div class="task-city-container">
                                 <ul class="city-list">
-                                    <li id="city-first" class="city-item">СЫКТЫВКАР</li>
-                                    <li id="city-second" class="city-item">УХТА</li>
+                                    <li class="city-item" id="city-first" >СЫКТЫВКАР</li>
+                                    <li class="city-item" id="city-second">УХТА</li>
                                 </ul>
                             </div>
                         </div>

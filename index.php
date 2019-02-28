@@ -14,6 +14,55 @@
     </div>
 </div>
 
+<div class="container_main-form">
+    <div class="container_main-form__wrapper">
+        <form action="">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 d-md-block d-none">
+                        <div class="input_main col-c-center">
+                            <img src="/img/img/calendar2.svg" alt="">
+                            <input type='text' name="checkin" class='datepicker-here form-input ' id="checkin" autocomplete="off" placeholder="Дата заезда" required="" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-md-block d-none">
+                        <div class="input_main col-c-center">
+                            <img src="/img/img/calendar2.svg" alt="">
+                            <input type='text' name="checkout" class='datepicker-here form-input' id="checkout" autocomplete="off" placeholder="Дата отъезда" required="" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-md-block d-none">
+                        <div class="input_main col-c-center">
+                            <select name="sleep">
+                                <option selected disabled>Спальных мест</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <a href="/booking/">
+                        <div class="input_main col-c-center">
+                                <input type="button" value="Бронировать">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
 <div class="container_content container_content_color-white">
     <div class="container_content__wrapper">
         <div class="container-fluid">
